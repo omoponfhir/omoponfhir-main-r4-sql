@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>edu.gatech.chai</groupId>
+	<artifactId>omoponfhir-dstu2</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0</version>
+	<name>OMOPonFHIR-R4</name>
+	<url>http://omoponfhir.org</url>
+
+	<organization>
+		<name>Georgia Tech Research Institute - CHAI</name>
+		<url>http://chai.gatech.edu</url>
+	</organization>
+
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-dnault-maven</id>
+			<name>bintray</name>
+			<url>https://dl.bintray.com/dnault/maven</url>
+		</repository>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<description>OMOPonFHIR R4 Server Build</description>
+
+	<modules>
+		<module>omoponfhir-omopv5-sql</module>
+		<module>omoponfhir-omopv5-r4-mapping</module>
+		<module>omoponfhir-r4-server</module>
+	</modules>
+
+	<licenses>
+		<license>
+			<name>Apache Software License 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+</project>
