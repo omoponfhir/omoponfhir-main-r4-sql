@@ -10,29 +10,29 @@ Refer the follow repositories and use the latest to work on the code.
 
 - path = omoponfhir-omopv5-sql
 - url = https://github.com/omoponfhir/omoponfhir-omopv5-sql.git
-- branch = 5.2
+- branch = master
 
-- path = omoponfhir-omopv5-dstu2-mapping
-- url = https://github.com/omoponfhir/omoponfhir-omopv5-dstu2-mapping.git
+- path = omoponfhir-omopv5-r4-mapping
+- url = https://github.com/omoponfhir/omoponfhir-omopv5-r4-mapping.git
 - branch = sqlRender
 
-- path = omoponfhir-dstu2-server
-- url = https://github.com/omoponfhir/omoponfhir-dstu2-server.git
+- path = omoponfhir-r4-server
+- url = https://github.com/omoponfhir/omoponfhir-r4-server.git
 - branch = sqlRender
 ```
         
 ## Download the package
 ```
-git clone --recurse https://github.com/omoponfhir/omoponfhir-main-dstu2-sql.git
-cd omoponfhir-main-dstu2-sql/
+git clone --recurse https://github.com/omoponfhir/omoponfhir-main-r4-sql.git
+cd omoponfhir-main-r4-sql/
 mvn clean install
-cd omoponfhir-dstu2-server/target/
-scp omoponfhir-dstu2-server.war <vm url>:omoponfhir-dstu2-server.war
+cd omoponfhir-r4-server/target/
+scp omoponfhir-r4-server.war <vm url>:omoponfhir-r4-server.war
 ```
 
 ## Deploy to tomcat ##
 ```
-cp omoponfhir-dstu2-server.war <tomcat_directory>/webapps/
+cp omoponfhir-r4-server.war <tomcat_directory>/webapps/
 cd <tomcat_directory>/bin
 vi setenv.sh
 ```
