@@ -10,7 +10,7 @@ Refer the follow repositories and use the latest to work on the code.
 
 - path = omoponfhir-omopv5-sql
 - url = https://github.com/omoponfhir/omoponfhir-omopv5-sql.git
-- branch = master
+- branch = 5.3.1
 
 - path = omoponfhir-omopv5-r4-mapping
 - url = https://github.com/omoponfhir/omoponfhir-omopv5-r4-mapping.git
