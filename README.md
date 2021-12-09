@@ -1,7 +1,7 @@
 # OMOPonFHIR SQLRender server deployment
 This repository is a server deployment package that lock down the version of included components. Please use the following step to compile and deploy the server. You may need to customize some of the environment parameters. 
 
-This package is tested with Google Big Query instance. And, the server supports mapping for FHIR R4 and OMOP v5.3
+This package is tested with Google Big Query instance. And, the server supports mapping for FHIR R4 and OMOP v5.3. Please see omopv5_3_setup/ folder for some help on ddls for extra tables/views. Database ddls are also included. 
 
 ```
 **Note:** This repository contains submodules of anoter repositories that are needed. If you want to participate in 
