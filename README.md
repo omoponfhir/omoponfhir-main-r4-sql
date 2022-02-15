@@ -38,7 +38,7 @@ vi setenv.sh
 ```
 ## Deploy using Docker
 ```
-udo docker build -t omoponfhir .
+sudo docker build -t omoponfhir .
 sudo docker run --name omoponfhir -p 8080:8080 -d omoponfhir:latest
 ```
 ## Configuration of webapp
