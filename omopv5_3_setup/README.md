@@ -1,4 +1,4 @@
-## How to install PostgreSQL database for OMOPv6.0 using Docker
+## How to install PostgreSQL database for OMOPv5.3 using Docker
 1. Goto Athena.ohdsi.org to download Vocabularies.
 	./cpt.sh myungchoi <password>
 1. Get DDLs from https://github.com/OHDSI/CommonDataModel
