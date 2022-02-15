@@ -36,7 +36,11 @@ cp omoponfhir-r4-server.war <tomcat_directory>/webapps/
 cd <tomcat_directory>/bin
 vi setenv.sh
 ```
-
+## Deploy using Docker
+```
+udo docker build -t omoponfhir .
+sudo docker run --name omoponfhir -p 8080:8080 -d omoponfhir:latest
+```
 ## Configuration of webapp
 In setenv.sh file, add the following environment variables. Change the values for your environment 
 ```
