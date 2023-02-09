@@ -49,6 +49,7 @@ In setenv.sh file, add the following environment variables. Change the values fo
 ```
 export JDBC_USERNAME="<your username of JDBC DB instance>"
 export JDBC_PASSWORD="<your password of JDBC DB instance>"
+export JDBC_DRIVER="<DB driver class>"
 export PG_HOST="<your Postgres Host URL. eg: localhost>"
 export PG_PORT="<your Postgres Host Port. eg: 5432>"
 export PG_DATABASE="<name of the database. eg: postgres>"
@@ -63,6 +64,7 @@ export SERVERBASE_URL="<your fhir base url, eg: http://localhost:8080/omoponfhir
 export LOCAL_CODEMAPPING_FILE_PATH="<whatever the path you want to put your local mapping file. eg: /temp/my_local_code"
 export MEDICATION_TYPE="code"
 export TARGETDATABASE="<SqlRenderTargetDialect value such as bigquery or postgresql. If you leave this empty, it will be postgresql. Use string from sqlRender>"
+export OMOPONFHIR_NAME="OMOP v5.3.1 on FHIR R4"
 export BIGQUERYDATASET="<BigQuery Dataset Name. It will be ignored if TARGETDATABASE is not bigquery>"
 export BIGQUERYPROJECT="<BigQuery Project Name. It will be ignored if TARGETDATABASE is not bigquery>"
 ```
