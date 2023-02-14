@@ -5,7 +5,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.gatech.chai</groupId>
-	<artifactId>omoponfhir-dstu2</artifactId>
+	<artifactId>omoponfhir-r4</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.0</version>
 	<name>OMOPonFHIR-R4</name>
