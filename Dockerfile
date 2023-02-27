@@ -12,6 +12,6 @@ FROM tomcat:9.0.65-jre17
 #RUN apk add zip postgresql-client
 
 # Copy GT-FHIR war file to webapps.
-COPY --from=builder /usr/src/app/omoponfhir-r4-server/target/omoponfhir-r4-server.war $CATALINA_HOME/webapps/omoponfhir4.war
+COPY --from=builder /usr/src/app/omoponfhir-r4-server/target/omoponfhir-r4-server.war $CATALINA_HOME/webapps/ROOT.war
 
 EXPOSE 8080
