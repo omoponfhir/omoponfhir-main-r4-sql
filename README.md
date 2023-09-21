@@ -47,6 +47,7 @@ sudo docker run --name omoponfhir -p 8080:8080 -d omoponfhir:latest
 ## Configuration of webapp
 In setenv.sh file, add the following environment variables. Change the values for your environment 
 ```
+export JDBC_URL="jdbc:postgresql://url"
 export JDBC_USERNAME="<your username of JDBC DB instance>"
 export JDBC_PASSWORD="<your password of JDBC DB instance>"
 export JDBC_DRIVER="<DB driver class>"
